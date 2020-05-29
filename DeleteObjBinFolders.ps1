@@ -18,7 +18,7 @@ if($null -ne $FoldersToRemove)
 	Write-Host "`rSearch completed, found:"$FoldersToRemove.Count"folders to be removed.                         " -foregroundcolor green
 }
 else {
-	Read-Host "`rNo folders to remove, press enter to exit." -foregroundcolor green
+	Read-Host "`rNo folders to remove, press enter to exit.                                                      " -foregroundcolor green
 	Exit
 }
 
