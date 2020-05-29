@@ -48,4 +48,4 @@ else { 	Write-Host "No folders to remove" -foregroundcolor green }
 Write-Host 
 
 # prevent closing the window immediately
-$dummy = Read-Host "Completed, press enter to continue."
+$dummy = Read-Host "Completed, press enter to exit."
